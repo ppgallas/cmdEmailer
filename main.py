@@ -47,3 +47,7 @@ def main():
     sendButton = browser.find_element_by_id(":8r") # Finds 'Send' button
     sendButton.click()                             # Clicks 'Send' button
 
+    driver.close()
+
+if __name__ == '__main__':
+    main()
